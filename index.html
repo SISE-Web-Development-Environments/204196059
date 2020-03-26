@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <center><font size="6">In Memory of Kobe Bryant</font> </center>
+  <br/>
+<div style="color: white;" id="menu">
+  Logo 
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;
+
+
+<a style="color: white;" href="#about"> About Kobe Bryant</a>
+|
+<a style="color: white;" href="#photos">Kobe's Photos</a>
+|
+<a style="color: white;" href="#playlist">Kobe's Playlist</a>
+|
+<a style="color: white;" href="#like">Like</a>
+|
+<a style="color: white;" href="#qrcoder">QR code</a>
+|
+<a style="color: white;" href="#spa">Q&A</a></li>
+|
+<a style="color: white;" href="#contact">Contact Me</a>
+
 </div>
-		  
+
+
 <section id="about" class="section">
 <br/>
 <br/>
@@ -31,7 +48,8 @@
 <br/>
 <br/>
 <br/>
-about me
+<center><font size="6">About Kobe Bryant</font> </center>
+<p>קובי בין בראיינט היה כדורסלן אמריקאי, ששיחק בעמדת הקלע בקבוצת האנביאיי לוס אנג'לס לייקרס. בראיינט הוא מלך הסלים של הלייקרס בכל הזמנים, והיה אחד מהשחקנים המצליחים בתולדות האנביאיי. בראיינט הוביל את הלייקרס, יחד עם שאקיל אוניל, לשלוש אליפויות רצופות בין השנים 2000 ו-2002, והוביל את הקבוצה לשתי אליפויות נוספות ב-2009 וב-2010. בראיינט מדורג במקום הרביעי ברשימת קלעי כל הזמנים באנביאיי. במהלך קריירת האנביאיי שלו זכה בראיינט בתארים אישיים רבים: הוא סיים שתי עונות כמלך הסלים של הליגה; נבחר פעם אחת לשחקן המצטיין של העונה הסדירה ופעמיים לשחקן המצטיין של סדרת הגמר; נבחר 15 פעמים לאחת מחמישיות העונה ו-12 פעמים לאחת מחמישיות ההגנה; וכן הופיע 18 פעמים במשחק האולסטאר של הליגה וזכה ארבע פעמים בתואר השחקן המצטיין של המשחק, שיא של כל הזמנים. בשנת 2014 היה הכדורסלן המרוויח בעולם. באפריל 2016 ערך את משחקו האחרון במדי הלייקרס, בו קלע 60 נקודות, ולאחריו פרש מכדורסל בגיל 37.</p>
 <br/>
 <br/>
 <br/>
@@ -46,18 +64,17 @@ about me
 <br/>
 <br/>
 <br/>
+<center><font size="6">Kobe's Photos</font> </center>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<img src=kobe3.jpeg width=250 height=300 />
+<img src=kobe2.jpeg width=250 height=300 />
+<img src=kobe1.jpeg width=300 height=300 />
+<img src=kobe4.jpeg width=250 height=300 />
+<img src=kobe5.jpeg width=300 height=300 />
+<img src=kobe6.jpeg width=530 height=300 />
 </section>
 
 <section id="playlist" class="section">
@@ -70,6 +87,7 @@ my photos
 <br/>
 <br/>
 <br/>
+<center><font size="6">Kobe's Playlist</font> </center>
 <br/>
 <br/>
 <br/>
@@ -77,13 +95,15 @@ my photos
 <br/>
 <br/>
 <br/>
-my playlist
 <br/>
-<br/>
-<br/>
+<center><video width="600" controls >
+<source src="video.mp4" type="video/mp4">
+</video>
+</center>
 </section>
 
 <section id="like" class="section">
+  
 <br/>
 <br/>
 <br/>
@@ -92,16 +112,21 @@ my playlist
 <br/>
 <br/>
 <br/>
+<center><font size="6">Like</font> 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"></script>
+
+  <!-- Your like button code -->
+  <div class="fb-like" 
+    data-href="https://www.your-domain.com/your-page.html" 
+    data-layout="standard" 
+    data-action="like" 
+    data-show-faces="true">
+  </div>
+  
 <br/>
 <br/>
 </section>
@@ -117,13 +142,7 @@ give me a like
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
+<center><font size="6">QR code</font> </center>
 <br/>
 <br/>
 <br/>
@@ -146,7 +165,7 @@ scan my code
 <br/>
 <br/>
 <br/>
-ans
+<center><font size="6">Q&A</font> </center>
 <br/>
 <br/>
 <br/>
@@ -169,10 +188,10 @@ ans
 <br/>
 <br/>
 <br/>
-contact me
+<center> <font size="6">Contact Me</font>  </center> 
 <br/>
 <br/>
-<br/>
+<br/> 
 </section>
 
 
