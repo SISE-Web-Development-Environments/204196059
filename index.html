@@ -3,6 +3,10 @@
 <head>
 
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src = "https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css" rel = "stylesheet">
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"> </script>
+
 </head>
 <body>
   <div id="fb-root"></div>
@@ -165,10 +169,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <center> <font size="6">Contact Me</font>  </center> 
 <br/>
 <br/>
@@ -221,13 +221,19 @@ input[type=submit]:hover {
     <input type="text" id="lname" name="lastname" placeholder="Your Mail..">
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:300px"></textarea>
+  <br>
     <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </form>
 </div>
-
-<span style='font-size:100px;'>&#128512;</span>
 </section>
 
 
@@ -245,4 +251,10 @@ $(function(){
  });​
  </script>
 </body>
+<script>
+$("#subject").emojioneArea({
+  pickerPosition:"bottom"
+
+});
+</script>
 </html>
