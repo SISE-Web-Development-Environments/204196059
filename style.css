@@ -1,9 +1,11 @@
 #menu
 {
 	font-size: 2vw;
-	position: fixed;
 	width: 100%;
+	position: fixed;
 	height: fit-content;
 	background: rgb(0, 247, 255);
-	float: none;
+
+
+
 }
